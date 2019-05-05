@@ -1,4 +1,4 @@
-FROM hltj/wasi-sdk:4.0-debian
+FROM hltj/wasi-sdk:5.0-debian
 
 RUN set -x \
   && apt-get update && apt-get install -y wget \

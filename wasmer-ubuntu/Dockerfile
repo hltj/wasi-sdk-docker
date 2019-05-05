@@ -1,4 +1,4 @@
-FROM hltj/wasi-sdk:4.0-ubuntu
+FROM hltj/wasi-sdk:5.0-ubuntu
 
 RUN set -x \
   && apt-get update && apt-get install -y wget \
